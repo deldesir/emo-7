@@ -1,52 +1,109 @@
-# **Five-Digit Numerical Encoding Framework Reference Guide**
+# **EMO-7 Framework Reference Guide**
 
 ## **Table of Contents**
 
-1. [Introduction](#introduction)
-2. [Encoding Structure Overview](#encoding-structure-overview)
-3. [Category Definitions and Codes](#category-definitions-and-codes)
-    - [Digit 1: Entities](#digit-1-entities)
-    - [Digit 2: Actions](#digit-2-actions)
-    - [Digit 3: Objects](#digit-3-objects)
-    - [Digit 4: Relationships/Roles](#digit-4-relationshipsroles)
-    - [Digit 5: Context](#digit-5-context)
-4. [Encoding and Decoding Process](#encoding-and-decoding-process)
-5. [Examples](#examples)
-6. [Appendix: Comprehensive Category Tables](#appendix-comprehensive-category-tables)
+1. [Introduction](#1-introduction)
+2. [Encoding Structure Overview](#2-encoding-structure-overview)
+3. [Category Definitions and Codes](#3-category-definitions-and-codes)
+    - [Digit 1: Primary Emotions](#digit-1-primary-emotions)
+    - [Digit 2: Triggering Emotions](#digit-2-triggering-emotions)
+    - [Digit 3: Entities](#digit-3-entities)
+    - [Digit 4: Actions](#digit-4-actions)
+    - [Digit 5: Objects](#digit-5-objects)
+    - [Digit 6: Relationships/Roles](#digit-6-relationshipsroles)
+    - [Digit 7: Context](#digit-7-context)
+4. [Encoding and Decoding Process](#4-encoding-and-decoding-process)
+5. [Examples Using the EMO-7 Framework](#5-examples-using-the-emo-7-framework)
+6. [Best Practices](#6-best-practices)
+7. [Appendix: Comprehensive Category Tables](#7-appendix-comprehensive-category-tables)
+8. [License](#8-license)
 
 ---
 
 ## **1. Introduction**
 
-Welcome to the **Five-Digit Numerical Encoding Framework Reference Guide**. This guide serves as a comprehensive resource for understanding and utilizing the encoding system designed to represent real-life situations succinctly and effectively. Whether you're encoding simple interactions or complex scenarios, this framework ensures clarity, consistency, and ease of use.
+Welcome to the **EMO-7 Framework Reference Guide**. The EMO-7 Framework is a **seven-digit numerical encoding system** designed to represent real-life events by capturing both their **structural elements** and **emotional components**. This framework is particularly useful for researchers in psychology, cognitive science, marketing, education, and any field that benefits from a nuanced understanding of event memorability and emotional impact.
 
 ---
 
 ## **2. Encoding Structure Overview**
 
-The encoding framework transforms real-life situations into a five-digit numerical code. Each digit corresponds to a specific category, capturing essential elements of the situation. The structure follows the sequence:
+The **EMO-7 Framework** transforms real-life situations into a **seven-digit numerical code**. Each digit represents a specific category, encompassing both emotional and structural aspects of an event.
+
+### **Encoding Structure:**
 
 ```
-[Entity][Action][Object][Relationship/Roles][Context]
+[Primary Emotion][Triggering Emotion][Entity][Action][Object][Relationship/Roles][Context]
 ```
 
-- **Digit 1 (Entity):** Main participant or actor.
-- **Digit 2 (Action):** Primary action performed.
-- **Digit 3 (Object):** Object or target of the action.
-- **Digit 4 (Relationship/Roles):** Relationship between entities or role of the object.
-- **Digit 5 (Context):** Contextual information such as time, manner, or conditions.
+- **Digit 1:** Primary Emotion (experienced during the event)
+- **Digit 2:** Triggering Emotion (evoked upon recalling the event)
+- **Digits 3-7:** Original five-digit encoding capturing the structural components:
+  - **Digit 3:** Entities
+  - **Digit 4:** Actions
+  - **Digit 5:** Objects
+  - **Digit 6:** Relationships/Roles
+  - **Digit 7:** Context
 
-This systematic approach ensures that each aspect of a situation is encapsulated within a concise numerical representation.
+This structured approach ensures a **holistic representation** of events, integrating both emotional depth and factual details.
 
 ---
 
 ## **3. Category Definitions and Codes**
 
-Each digit in the five-digit code represents a category, with subcategories ranging from **0** to **9**. Below are detailed definitions and corresponding codes for each category.
+Each digit in the seven-digit code corresponds to a specific category. Below are the detailed definitions and corresponding codes for each category.
 
-### **Digit 1: Entities**
+### **Digit 1: Primary Emotions**
 
-Entities are the participants or actors involved in the situation.
+Primary emotions are those **experienced during** the event, significantly contributing to its memorability.
+
+| **Code** | **Emotion**         | **Description**                              |
+|----------|---------------------|----------------------------------------------|
+| **1**    | Joy/Happiness       | Feelings of pleasure, contentment, or elation |
+| **2**    | Fear/Anxiety        | Feelings of apprehension, worry, or terror    |
+| **3**    | Sadness             | Feelings of sorrow, disappointment, or grief  |
+| **4**    | Surprise            | Feelings of astonishment or unexpectedness    |
+| **5**    | Anger               | Feelings of frustration, irritation, or rage  |
+| **6**    | Love/Affection      | Feelings of deep attachment or fondness       |
+| **7**    | Disgust             | Feelings of revulsion or strong disapproval   |
+| **8**    | Anticipation        | Feelings of excitement or eagerness           |
+| **9**    | Trust               | Feelings of confidence and reliability        |
+| **0**    | Miscellaneous       | Any other primary emotions not listed         |
+
+**_Notes:_**
+
+- **Miscellaneous (0):** Use for emotions that do not fit into the predefined categories.
+- **Ordering by Impact:** Codes are assigned based on the general impact of the emotion on memorability, with **Joy/Happiness (1)** typically having a high positive impact.
+
+---
+
+### **Digit 2: Triggering Emotions**
+
+Triggering emotions are those **evoked upon recalling** the event, influencing how the memory is processed and felt later.
+
+| **Code** | **Emotion**              | **Description**                              |
+|----------|--------------------------|----------------------------------------------|
+| **1**    | Nostalgia                | Sentimental longing for the past             |
+| **2**    | Pride                    | Satisfaction derived from achievements       |
+| **3**    | Happiness                | Feelings of joy or contentment upon recall   |
+| **4**    | Remorse/Guilt            | Feelings of regret or responsibility         |
+| **5**    | Empathy/Compassion       | Understanding and sharing others' emotions   |
+| **6**    | Fear/Anxiety             | Unease or worry when recalling stressful events |
+| **7**    | Surprise/Astonishment    | Amazement upon recall                        |
+| **8**    | Sadness                  | Sorrow when recalling losses                 |
+| **9**    | Motivation/Inspiration   | Drive to act or change upon recall           |
+| **0**    | Miscellaneous            | Any other triggering emotions not listed     |
+
+**_Notes:_**
+
+- **Miscellaneous (0):** Reserved for triggering emotions not predefined.
+- **Ordering by Impact:** Codes are organized based on their influence on the depth and nature of memory recall.
+
+---
+
+### **Digit 3: Entities**
+
+Entities are the **participants or actors** involved in the situation.
 
 | **Code** | **Subcategory**   | **Description**                          |
 |----------|-------------------|------------------------------------------|
@@ -61,16 +118,16 @@ Entities are the participants or actors involved in the situation.
 | **8**    | Technology        | Gadgets, computers, machinery             |
 | **9**    | Miscellaneous     | Any other entities not covered above      |
 
-**Notes:**
-- **Person (0)** is gender-neutral and serves as a general category.
-- **Male (1)** and **Female (2)** provide gender-specific distinctions.
-- **Miscellaneous (9)** captures entities that do not fit into other subcategories.
+**_Notes:_**
+
+- **Person (0):** A general, gender-neutral category.
+- **Miscellaneous (9):** Captures entities that do not fit into other subcategories.
 
 ---
 
-### **Digit 2: Actions**
+### **Digit 4: Actions**
 
-Actions represent the verbs or activities performed by entities.
+Actions represent the **verbs or activities** performed by entities.
 
 | **Code** | **Subcategory** | **Description**                          |
 |----------|-----------------|------------------------------------------|
@@ -85,14 +142,15 @@ Actions represent the verbs or activities performed by entities.
 | **8**    | Build           | Constructing or assembling               |
 | **9**    | Miscellaneous   | Any other actions not covered above      |
 
-**Notes:**
-- **Miscellaneous (9)** is used for actions that do not fit into predefined categories.
+**_Notes:_**
+
+- **Miscellaneous (9):** For actions that do not fit into predefined categories.
 
 ---
 
-### **Digit 3: Objects**
+### **Digit 5: Objects**
 
-Objects are the items or subjects involved in the actions.
+Objects are the **items or subjects** involved in the actions.
 
 | **Code** | **Subcategory**      | **Description**                          |
 |----------|----------------------|------------------------------------------|
@@ -107,14 +165,15 @@ Objects are the items or subjects involved in the actions.
 | **8**    | Art                  | Creative works like paintings, music     |
 | **9**    | Miscellaneous        | Any other objects not covered above      |
 
-**Notes:**
-- **Miscellaneous (9)** covers objects that do not fit into other subcategories.
+**_Notes:_**
+
+- **Miscellaneous (9):** Covers objects that do not fit into other subcategories.
 
 ---
 
-### **Digit 4: Relationships/Roles**
+### **Digit 6: Relationships/Roles**
 
-These define how entities interact with each other or with objects.
+These define how entities **interact with each other** or with objects.
 
 | **Code** | **Subcategory** | **Description**                          |
 |----------|-----------------|------------------------------------------|
@@ -129,15 +188,16 @@ These define how entities interact with each other or with objects.
 | **8**    | Purpose         | Reason for the action                    |
 | **9**    | Miscellaneous   | Any other relationships not covered above|
 
-**Notes:**
-- **Agent (0)** typically corresponds to the main entity performing the action.
-- **Miscellaneous (9)** handles relationships that are not predefined.
+**_Notes:_**
+
+- **Agent (0):** Typically corresponds to the main entity performing the action.
+- **Miscellaneous (9):** Handles relationships that are not predefined.
 
 ---
 
-### **Digit 5: Context**
+### **Digit 7: Context**
 
-Context provides additional information about the action, such as time, manner, or specific conditions.
+Context provides additional information about the action, such as **time, manner, or specific conditions**.
 
 | **Code** | **Subcategory**   | **Description**                          |
 |----------|-------------------|------------------------------------------|
@@ -152,9 +212,10 @@ Context provides additional information about the action, such as time, manner, 
 | **8**    | Location Detail   | More precise location details            |
 | **9**    | Miscellaneous     | Any other contextual information not covered above |
 
-**Notes:**
-- **Context** is essential for understanding the temporal and situational aspects of the action.
-- **Miscellaneous (9)** is reserved for context elements not predefined.
+**_Notes:_**
+
+- **Miscellaneous (9):** Reserved for context elements not predefined.
+- **Contextual Prioritization:** Prioritize the most relevant contextual element if multiple contexts apply.
 
 ---
 
@@ -162,288 +223,342 @@ Context provides additional information about the action, such as time, manner, 
 
 ### **A. Encoding Rules:**
 
-1. **Identify Components:** Break down the sentence into **Entity**, **Action**, **Object**, **Relationship/Roles**, and **Context**.
-2. **Assign Codes:** For each component, assign the corresponding digit based on the definitions.
-3. **Sequence the Codes:** Arrange the digits in the order: `[Entity][Action][Object][Relationship/Roles][Context]`.
-4. **Use Hyphens for Clarity:** Separate digits with hyphens for readability (e.g., `0-4-9-1-1`).
+1. **Identify Components:**
+   - Analyze the situation to determine the **Primary Emotion**, **Triggering Emotion**, **Entity**, **Action**, **Object**, **Relationship/Roles**, and **Context**.
+
+2. **Assign Codes:**
+   - For each component, assign the corresponding digit based on the category definitions.
+
+3. **Sequence the Codes:**
+   - Arrange the digits in the following order:
+     ```
+     [Primary Emotion][Triggering Emotion][Entity][Action][Object][Relationship/Roles][Context]
+     ```
+
+4. **Use Hyphens for Clarity:**
+   - Separate the digits with hyphens for readability (e.g., `1-2-0-4-9-1-1`).
 
 ### **B. Decoding Rules:**
 
-1. **Read the Code:** Examine each digit in the sequence.
+1. **Read the Code:**
+   - Examine each digit in the sequence.
+
 2. **Map to Categories:**
-   - **First Digit (D1):** Entity
-   - **Second Digit (D2):** Action
-   - **Third Digit (D3):** Object
-   - **Fourth Digit (D4):** Relationship/Roles
-   - **Fifth Digit (D5):** Context
-3. **Interpret Each Digit:** Use the category definitions to understand each component.
-4. **Reconstruct the Sentence:** Combine the interpreted components to form the essence of the situation.
+   - **Digit 1:** Primary Emotion
+   - **Digit 2:** Triggering Emotion
+   - **Digits 3-7:** Structural components (Entity, Action, Object, Relationship/Roles, Context)
+
+3. **Interpret Each Digit:**
+   - Refer to the category definitions to understand what each digit represents.
+
+4. **Reconstruct the Situation:**
+   - Combine the interpreted components to form a comprehensive understanding of the event, including both its factual details and emotional aspects.
 
 ---
 
-## **5. Examples**
+## **5. Examples Using the EMO-7 Framework**
 
-### **Example 1: "Emily is helping Dave fix the roof."**
+### **Example 1: "Emily is helping Dave fix the roof, feeling happy, and upon recalling, they feel pride."**
 
 **Step-by-Step Breakdown:**
 
-1. **Entity (D1):**
+1. **Primary Emotion (Digit 1):**
+   - **Feeling Happy:** Joy/Happiness → **1**
+
+2. **Triggering Emotion (Digit 2):**
+   - **Feel Pride upon recall:** Pride → **2**
+
+3. **Entity (Digit 3):**
    - **Emily:** Person → **0**
 
-2. **Action (D2):**
+4. **Action (Digit 4):**
    - **Helping:** Help → **4**
 
-3. **Object (D3):**
+5. **Object (Digit 5):**
    - **Roof:** Miscellaneous Object → **9**
 
-4. **Relationship/Roles (D4):**
+6. **Relationship/Roles (Digit 6):**
    - **Dave as Recipient:** Recipient → **1**
 
-5. **Context (D5):**
+7. **Context (Digit 7):**
    - **Present Action:** Present → **1**
 
 **Final Encoding:**
 
 ```
-0-4-9-1-1
+1-2-0-4-9-1-1
 ```
 
 **Interpretation:**
 
+- **1:** Joy/Happiness (Primary Emotion)
+- **2:** Pride (Triggering Emotion)
 - **0:** Person (Emily)
 - **4:** Help
 - **9:** Miscellaneous Object (Roof)
 - **1:** Recipient (Dave)
-- **1:** Present (Action is ongoing)
+- **1:** Present
 
 **Reconstruction:**
 
-"A person (Emily) is helping (action: help) a miscellaneous object (roof) with Dave as the recipient in the present."
+"Emily is helping Dave fix the roof, feeling happy during the activity, and upon recalling the event, they feel pride."
 
 ---
 
-### **Example 2: "Sarah teaches John mathematics at school."**
+### **Example 2: "Sarah teaches John mathematics at school, experiencing fulfillment, and later, John feels gratitude."**
 
 **Step-by-Step Breakdown:**
 
-1. **Entity (D1):**
+1. **Primary Emotion (Digit 1):**
+   - **Experiencing Fulfillment:** Pride → **2**
+
+2. **Triggering Emotion (Digit 2):**
+   - **John feels Gratitude:** Trust → **9**
+
+3. **Entity (Digit 3):**
    - **Sarah:** Person → **0**
 
-2. **Action (D2):**
+4. **Action (Digit 4):**
    - **Teaches:** Teach → **5**
 
-3. **Object (D3):**
+5. **Object (Digit 5):**
    - **Mathematics:** Book/Subject → **7**
 
-4. **Relationship/Roles (D4):**
+6. **Relationship/Roles (Digit 6):**
    - **At school:** Location → **3**
 
-5. **Context (D5):**
+7. **Context (Digit 7):**
    - **Present Action:** Present → **1**
 
 **Final Encoding:**
 
 ```
-0-5-7-3-1
+2-9-0-5-7-3-1
 ```
 
 **Interpretation:**
 
+- **2:** Pride (Primary Emotion)
+- **9:** Trust (Triggering Emotion)
 - **0:** Person (Sarah)
 - **5:** Teach
 - **7:** Book/Subject (Mathematics)
 - **3:** Location (School)
-- **1:** Present (Action is ongoing)
+- **1:** Present
 
 **Reconstruction:**
 
-"A person (Sarah) teaches (action: teach) a subject (mathematics) at a location (school) in the present."
+"Sarah teaches John mathematics at school, experiencing pride during the lesson, and later, John feels gratitude when recalling the experience."
 
 ---
 
-### **Example 3: "Alex writes a book for the library."**
+### **Example 3: "Alex writes a book for the library, feeling inspired, and readers feel nostalgia when reading it."**
 
 **Step-by-Step Breakdown:**
 
-1. **Entity (D1):**
+1. **Primary Emotion (Digit 1):**
+   - **Feeling Inspired:** Trust → **9**
+
+2. **Triggering Emotion (Digit 2):**
+   - **Readers feel Nostalgia:** Nostalgia → **1**
+
+3. **Entity (Digit 3):**
    - **Alex:** Person → **0**
 
-2. **Action (D2):**
+4. **Action (Digit 4):**
    - **Writes:** Create → **0**
 
-3. **Object (D3):**
+5. **Object (Digit 5):**
    - **Book:** Book/Subject → **7**
 
-4. **Relationship/Roles (D4):**
+6. **Relationship/Roles (Digit 6):**
    - **For the library:** Purpose → **8**
 
-5. **Context (D5):**
-   - **Future Purpose:** Future → **2**
+7. **Context (Digit 7):**
+   - **Present Action:** Present → **1**
 
 **Final Encoding:**
 
 ```
-0-0-7-8-2
+9-1-0-0-7-8-1
 ```
 
 **Interpretation:**
 
+- **9:** Trust (Primary Emotion)
+- **1:** Nostalgia (Triggering Emotion)
 - **0:** Person (Alex)
-- **0:** Create (Write)
+- **0:** Create (Writes)
 - **7:** Book/Subject (Book)
 - **8:** Purpose (For the library)
-- **2:** Future (Action is intended for the future)
+- **1:** Present
 
 **Reconstruction:**
 
-"A person (Alex) creates (writes) a book with the purpose (for) of the library in the future."
+"Alex writes a book for the library, feeling inspired during the process, and readers feel nostalgia when reading it."
 
 ---
 
-### **Example 4: "The dog chased the cat through the garden."**
+### **Example 4: "The dog chased the cat through the garden, driven by excitement, and later, the owner recalls the event with amusement."**
 
 **Step-by-Step Breakdown:**
 
-1. **Entity (D1):**
-   - **Dog:** Animal → **1**
+1. **Primary Emotion (Digit 1):**
+   - **Dog's Excitement:** Joy/Happiness → **1**
 
-2. **Action (D2):**
-   - **Chased:** Miscellaneous Action → **9**
+2. **Triggering Emotion (Digit 2):**
+   - **Owner's Amusement upon recall:** Happiness → **3**
 
-3. **Object (D3):**
-   - **Cat:** Animal → **1**
+3. **Entity (Digit 3):**
+   - **Dog:** Animal → **5**
 
-4. **Relationship/Roles (D4):**
+4. **Action (Digit 4):**
+   - **Chased:** Move → **2**
+
+5. **Object (Digit 5):**
+   - **Cat:** Animal → **5**
+
+6. **Relationship/Roles (Digit 6):**
    - **Through the garden:** Location → **3**
 
-5. **Context (D5):**
+7. **Context (Digit 7):**
    - **Past Action:** Past → **0**
 
 **Final Encoding:**
 
 ```
-1-9-1-3-0
+1-3-5-2-5-3-0
 ```
 
 **Interpretation:**
 
-- **1:** Animal (Dog)
-- **9:** Miscellaneous Action (Chase)
-- **1:** Animal (Cat)
+- **1:** Joy/Happiness (Dog's primary emotion)
+- **3:** Happiness (Owner's triggering emotion)
+- **5:** Animal (Dog)
+- **2:** Move (Chased)
+- **5:** Animal (Cat)
 - **3:** Location (Garden)
-- **0:** Past (Action occurred in the past)
+- **0:** Past
 
 **Reconstruction:**
 
-"An animal (dog) performed a miscellaneous action (chase) on another animal (cat) at a location (garden) in the past."
+"The dog chased the cat through the garden, driven by excitement, and later, the owner recalls the event with amusement."
 
 ---
 
-### **Example 5: "Maria cooks dinner using a new recipe."**
+### **Example 5: "Maria cooks dinner using a new recipe, feeling anxious, and upon reflection, she feels accomplished."**
 
 **Step-by-Step Breakdown:**
 
-1. **Entity (D1):**
+1. **Primary Emotion (Digit 1):**
+   - **Feeling Anxious:** Fear/Anxiety → **2**
+
+2. **Triggering Emotion (Digit 2):**
+   - **Feels Accomplished:** Pride → **2**
+
+3. **Entity (Digit 3):**
    - **Maria:** Person → **0**
 
-2. **Action (D2):**
-   - **Cooks:** Miscellaneous Action → **9**
+4. **Action (Digit 4):**
+   - **Cooks:** Create → **0**
 
-3. **Object (D3):**
+5. **Object (Digit 5):**
    - **Dinner:** Food → **6**
 
-4. **Relationship/Roles (D4):**
+6. **Relationship/Roles (Digit 6):**
    - **Using a new recipe:** Instrument → **6**
 
-5. **Context (D5):**
+7. **Context (Digit 7):**
    - **Present Action:** Present → **1**
 
 **Final Encoding:**
 
 ```
-0-9-6-6-1
+2-2-0-0-6-6-1
 ```
 
 **Interpretation:**
 
+- **2:** Fear/Anxiety (Maria's primary emotion)
+- **2:** Pride (Maria's triggering emotion)
 - **0:** Person (Maria)
-- **9:** Miscellaneous Action (Cook)
+- **0:** Create (Cooks)
 - **6:** Food (Dinner)
 - **6:** Instrument (Using a new recipe)
-- **1:** Present (Action is ongoing)
+- **1:** Present
 
 **Reconstruction:**
 
-"A person (Maria) performs a miscellaneous action (cook) on food (dinner) using an instrument (new recipe) in the present."
-
----
-
-### **Example 6: "They will travel to Paris next summer."**
-
-**Step-by-Step Breakdown:**
-
-1. **Entity (D1):**
-   - **They:** Group → **4**
-
-2. **Action (D2):**
-   - **Travel:** Move → **2**
-
-3. **Object (D3):**
-   - **Paris:** Miscellaneous Object (since Paris is a place, but Object category is for items) → **9**
-
-4. **Relationship/Roles (D4):**
-   - **To Paris:** Destination → **5**
-
-5. **Context (D5):**
-   - **Future Action:** Future → **2**
-
-**Final Encoding:**
-
-```
-4-2-9-5-2
-```
-
-**Interpretation:**
-
-- **4:** Group (They)
-- **2:** Move
-- **9:** Miscellaneous Object (Paris)
-- **5:** Destination
-- **2:** Future (Action will occur in the future)
-
-**Reconstruction:**
-
-"A group (they) moves (action: move) to a miscellaneous object (Paris) with the destination being Paris in the future."
-
-**Note:** Since "Paris" is a place, it ideally should be categorized under **Entity (Digit 1)** as **Place (4)**, but the **Object** category is intended for tangible items. To improve accuracy, consider refining the **Object** subcategories or allowing places to be referenced via **Relationship/Roles**.
+"Maria cooks dinner using a new recipe, feeling anxious during the process, and upon reflection, she feels accomplished."
 
 ---
 
 ## **6. Best Practices**
 
-1. **Comprehensive Reference:**
-   - Always refer to the **Comprehensive Category Tables** (see Appendix) to ensure accurate coding.
+### **Integration Benefits:**
 
-2. **Consistency:**
-   - Maintain consistent use of codes across all encodings to facilitate reliable decoding.
+- **Comprehensive Representation:** Captures both emotional and structural aspects of events, providing a holistic view.
+- **Enhanced Memorability Analysis:** Facilitates deeper insights into why certain events are memorable by analyzing their emotional components.
+- **Versatile Application:** Applicable across various fields such as psychology, marketing, education, and event planning.
 
-3. **Use of 'Miscellaneous':**
-   - When an element does not fit into predefined subcategories, use the **Miscellaneous (9)** code to maintain structure without compromising the encoding integrity.
+### **Best Practices:**
 
-4. **Contextual Prioritization:**
-   - In the **Context (Digit 5)** category, prioritize the most relevant contextual element. If multiple contexts apply, consider selecting the one that best captures the essence of the action.
+1. **Accurate Emotion Identification:**
+   - Carefully assess and assign the most appropriate primary and triggering emotion codes based on the context and feelings involved.
 
-5. **Documentation:**
-   - Keep this reference guide accessible during the encoding and decoding process to minimize errors.
+2. **Consistent Coding:**
+   - Maintain uniformity in code assignments to ensure reliability and comparability across different events.
 
-6. **Iterative Refinement:**
-   - Regularly review and refine subcategories based on new scenarios to enhance the framework's robustness.
+3. **Clarity in Ambiguity:**
+   - When an emotion does not exactly fit a predefined category, select the closest matching code and document any assumptions or interpretations made.
+
+4. **Cultural Sensitivity:**
+   - Recognize that emotional expressions and perceptions can vary across cultures. Adjust coding practices to accommodate cultural differences where necessary.
+
+5. **Use of 'Miscellaneous' Codes:**
+   - Reserve **Miscellaneous (0)** for emotions and categories that do not fit into predefined subcategories. Regularly review and update category tables to include commonly recurring emotions or entities not initially covered.
+
+6. **Documentation:**
+   - Keep detailed records of any custom codes or deviations from the standard framework to maintain clarity and consistency.
+
+7. **Iterative Refinement:**
+   - Continuously evaluate and refine the framework based on practical application and feedback to enhance its robustness and applicability.
 
 ---
 
 ## **7. Appendix: Comprehensive Category Tables**
 
-### **A. Entities (Digit 1)**
+### **A. Primary Emotions (Digit 1)**
+
+| **Code** | **Emotion**         | **Description**                              |
+|----------|---------------------|----------------------------------------------|
+| **1**    | Joy/Happiness       | Feelings of pleasure, contentment, or elation |
+| **2**    | Fear/Anxiety        | Feelings of apprehension, worry, or terror    |
+| **3**    | Sadness             | Feelings of sorrow, disappointment, or grief  |
+| **4**    | Surprise            | Feelings of astonishment or unexpectedness    |
+| **5**    | Anger               | Feelings of frustration, irritation, or rage  |
+| **6**    | Love/Affection      | Feelings of deep attachment or fondness       |
+| **7**    | Disgust             | Feelings of revulsion or strong disapproval   |
+| **8**    | Anticipation        | Feelings of excitement or eagerness           |
+| **9**    | Trust               | Feelings of confidence and reliability        |
+| **0**    | Miscellaneous       | Any other primary emotions not listed         |
+
+### **B. Triggering Emotions (Digit 2)**
+
+| **Code** | **Emotion**              | **Description**                              |
+|----------|--------------------------|----------------------------------------------|
+| **1**    | Nostalgia                | Sentimental longing for the past             |
+| **2**    | Pride                    | Satisfaction derived from achievements       |
+| **3**    | Happiness                | Feelings of joy or contentment upon recall   |
+| **4**    | Remorse/Guilt            | Feelings of regret or responsibility         |
+| **5**    | Empathy/Compassion       | Understanding and sharing others' emotions   |
+| **6**    | Fear/Anxiety             | Unease or worry when recalling stressful events |
+| **7**    | Surprise/Astonishment    | Amazement upon recall                        |
+| **8**    | Sadness                  | Sorrow when recalling losses                 |
+| **9**    | Motivation/Inspiration   | Drive to act or change upon recall           |
+| **0**    | Miscellaneous            | Any other triggering emotions not listed     |
+
+### **C. Entities (Digit 3)**
 
 | **Code** | **Subcategory**   | **Description**                          |
 |----------|-------------------|------------------------------------------|
@@ -458,7 +573,7 @@ Context provides additional information about the action, such as time, manner, 
 | **8**    | Technology        | Gadgets, computers, machinery             |
 | **9**    | Miscellaneous     | Any other entities not covered above      |
 
-### **B. Actions (Digit 2)**
+### **D. Actions (Digit 4)**
 
 | **Code** | **Subcategory** | **Description**                          |
 |----------|-----------------|------------------------------------------|
@@ -473,7 +588,7 @@ Context provides additional information about the action, such as time, manner, 
 | **8**    | Build           | Constructing or assembling               |
 | **9**    | Miscellaneous   | Any other actions not covered above      |
 
-### **C. Objects (Digit 3)**
+### **E. Objects (Digit 5)**
 
 | **Code** | **Subcategory**      | **Description**                          |
 |----------|----------------------|------------------------------------------|
@@ -488,7 +603,7 @@ Context provides additional information about the action, such as time, manner, 
 | **8**    | Art                  | Creative works like paintings, music     |
 | **9**    | Miscellaneous        | Any other objects not covered above      |
 
-### **D. Relationships/Roles (Digit 4)**
+### **F. Relationships/Roles (Digit 6)**
 
 | **Code** | **Subcategory** | **Description**                          |
 |----------|-----------------|------------------------------------------|
@@ -503,7 +618,7 @@ Context provides additional information about the action, such as time, manner, 
 | **8**    | Purpose         | Reason for the action                    |
 | **9**    | Miscellaneous   | Any other relationships not covered above|
 
-### **E. Context (Digit 5)**
+### **G. Context (Digit 7)**
 
 | **Code** | **Subcategory**   | **Description**                          |
 |----------|-------------------|------------------------------------------|
@@ -520,171 +635,346 @@ Context provides additional information about the action, such as time, manner, 
 
 ---
 
-## **8. Additional Encoding Examples**
+## **4. Encoding and Decoding Process**
 
-### **Example 7: "The firefighters extinguished the fire in the building yesterday."**
+### **A. Encoding Rules:**
+
+1. **Identify Components:**
+   - Analyze the situation to determine the **Primary Emotion**, **Triggering Emotion**, **Entity**, **Action**, **Object**, **Relationship/Roles**, and **Context**.
+
+2. **Assign Codes:**
+   - For each component, assign the corresponding digit based on the category definitions.
+
+3. **Sequence the Codes:**
+   - Arrange the digits in the following order:
+     ```
+     [Primary Emotion][Triggering Emotion][Entity][Action][Object][Relationship/Roles][Context]
+     ```
+
+4. **Use Hyphens for Clarity:**
+   - Separate the digits with hyphens for readability (e.g., `1-2-0-4-9-1-1`).
+
+### **B. Decoding Rules:**
+
+1. **Read the Code:**
+   - Examine each digit in the sequence.
+
+2. **Map to Categories:**
+   - **Digit 1:** Primary Emotion
+   - **Digit 2:** Triggering Emotion
+   - **Digits 3-7:** Structural components (Entity, Action, Object, Relationship/Roles, Context)
+
+3. **Interpret Each Digit:**
+   - Refer to the category definitions to understand what each digit represents.
+
+4. **Reconstruct the Situation:**
+   - Combine the interpreted components to form a comprehensive understanding of the event, including both its factual details and emotional aspects.
+
+---
+
+## **5. Examples Using the EMO-7 Framework**
+
+### **Example 1: "Emily is helping Dave fix the roof, feeling happy, and upon recalling, they feel pride."**
 
 **Step-by-Step Breakdown:**
 
-1. **Entity (D1):**
-   - **Firefighters:** Group → **4**
+1. **Primary Emotion (Digit 1):**
+   - **Feeling Happy:** Joy/Happiness → **1**
 
-2. **Action (D2):**
-   - **Extinguished:** Destroy → **1**
+2. **Triggering Emotion (Digit 2):**
+   - **Feel Pride upon recall:** Pride → **2**
 
-3. **Object (D3):**
-   - **Fire:** Miscellaneous Object → **9**
+3. **Entity (Digit 3):**
+   - **Emily:** Person → **0**
 
-4. **Relationship/Roles (D4):**
-   - **In the building:** Location → **3**
+4. **Action (Digit 4):**
+   - **Helping:** Help → **4**
 
-5. **Context (D5):**
+5. **Object (Digit 5):**
+   - **Roof:** Miscellaneous Object → **9**
+
+6. **Relationship/Roles (Digit 6):**
+   - **Dave as Recipient:** Recipient → **1**
+
+7. **Context (Digit 7):**
+   - **Present Action:** Present → **1**
+
+**Final Encoding:**
+
+```
+1-2-0-4-9-1-1
+```
+
+**Interpretation:**
+
+- **1:** Joy/Happiness (Primary Emotion)
+- **2:** Pride (Triggering Emotion)
+- **0:** Person (Emily)
+- **4:** Help
+- **9:** Miscellaneous Object (Roof)
+- **1:** Recipient (Dave)
+- **1:** Present
+
+**Reconstruction:**
+
+"Emily is helping Dave fix the roof, feeling happy during the activity, and upon recalling the event, they feel pride."
+
+---
+
+### **Example 2: "Sarah teaches John mathematics at school, experiencing fulfillment, and later, John feels gratitude."**
+
+**Step-by-Step Breakdown:**
+
+1. **Primary Emotion (Digit 1):**
+   - **Experiencing Fulfillment:** Pride → **2**
+
+2. **Triggering Emotion (Digit 2):**
+   - **John feels Gratitude:** Trust → **9**
+
+3. **Entity (Digit 3):**
+   - **Sarah:** Person → **0**
+
+4. **Action (Digit 4):**
+   - **Teaches:** Teach → **5**
+
+5. **Object (Digit 5):**
+   - **Mathematics:** Book/Subject → **7**
+
+6. **Relationship/Roles (Digit 6):**
+   - **At school:** Location → **3**
+
+7. **Context (Digit 7):**
+   - **Present Action:** Present → **1**
+
+**Final Encoding:**
+
+```
+2-9-0-5-7-3-1
+```
+
+**Interpretation:**
+
+- **2:** Pride (Primary Emotion)
+- **9:** Trust (Triggering Emotion)
+- **0:** Person (Sarah)
+- **5:** Teach
+- **7:** Book/Subject (Mathematics)
+- **3:** Location (School)
+- **1:** Present
+
+**Reconstruction:**
+
+"Sarah teaches John mathematics at school, experiencing pride during the lesson, and later, John feels gratitude when recalling the experience."
+
+---
+
+### **Example 3: "Alex writes a book for the library, feeling inspired, and readers feel nostalgia when reading it."**
+
+**Step-by-Step Breakdown:**
+
+1. **Primary Emotion (Digit 1):**
+   - **Feeling Inspired:** Trust → **9**
+
+2. **Triggering Emotion (Digit 2):**
+   - **Readers feel Nostalgia:** Nostalgia → **1**
+
+3. **Entity (Digit 3):**
+   - **Alex:** Person → **0**
+
+4. **Action (Digit 4):**
+   - **Writes:** Create → **0**
+
+5. **Object (Digit 5):**
+   - **Book:** Book/Subject → **7**
+
+6. **Relationship/Roles (Digit 6):**
+   - **For the library:** Purpose → **8**
+
+7. **Context (Digit 7):**
+   - **Present Action:** Present → **1**
+
+**Final Encoding:**
+
+```
+9-1-0-0-7-8-1
+```
+
+**Interpretation:**
+
+- **9:** Trust (Primary Emotion)
+- **1:** Nostalgia (Triggering Emotion)
+- **0:** Person (Alex)
+- **0:** Create (Writes)
+- **7:** Book/Subject (Book)
+- **8:** Purpose (For the library)
+- **1:** Present
+
+**Reconstruction:**
+
+"Alex writes a book for the library, feeling inspired during the process, and readers feel nostalgia when reading it."
+
+---
+
+### **Example 4: "The dog chased the cat through the garden, driven by excitement, and later, the owner recalls the event with amusement."**
+
+**Step-by-Step Breakdown:**
+
+1. **Primary Emotion (Digit 1):**
+   - **Dog's Excitement:** Joy/Happiness → **1**
+
+2. **Triggering Emotion (Digit 2):**
+   - **Owner's Amusement upon recall:** Happiness → **3**
+
+3. **Entity (Digit 3):**
+   - **Dog:** Animal → **5**
+
+4. **Action (Digit 4):**
+   - **Chased:** Move → **2**
+
+5. **Object (Digit 5):**
+   - **Cat:** Animal → **5**
+
+6. **Relationship/Roles (Digit 6):**
+   - **Through the garden:** Location → **3**
+
+7. **Context (Digit 7):**
    - **Past Action:** Past → **0**
 
 **Final Encoding:**
 
 ```
-4-1-9-3-0
+1-3-5-2-5-3-0
 ```
 
 **Interpretation:**
 
-- **4:** Group (Firefighters)
-- **1:** Destroy
-- **9:** Miscellaneous Object (Fire)
-- **3:** Location (Building)
-- **0:** Past (Action occurred in the past)
+- **1:** Joy/Happiness (Dog's primary emotion)
+- **3:** Happiness (Owner's triggering emotion)
+- **5:** Animal (Dog)
+- **2:** Move (Chased)
+- **5:** Animal (Cat)
+- **3:** Location (Garden)
+- **0:** Past
 
 **Reconstruction:**
 
-"A group (firefighters) destroyed (action: destroy) a miscellaneous object (fire) at a location (building) in the past."
+"The dog chased the cat through the garden, driven by excitement, and later, the owner recalls the event with amusement."
 
 ---
 
-### **Example 8: "The mechanic repaired the car with new parts last week."**
+### **Example 5: "Maria cooks dinner using a new recipe, feeling anxious, and upon reflection, she feels accomplished."**
 
 **Step-by-Step Breakdown:**
 
-1. **Entity (D1):**
-   - **Mechanic:** Person → **0**
+1. **Primary Emotion (Digit 1):**
+   - **Feeling Anxious:** Fear/Anxiety → **2**
 
-2. **Action (D2):**
-   - **Repaired:** Fix → **1**
+2. **Triggering Emotion (Digit 2):**
+   - **Feels Accomplished:** Pride → **2**
 
-3. **Object (D3):**
-   - **Car:** Vehicle Part → **5**
+3. **Entity (Digit 3):**
+   - **Maria:** Person → **0**
 
-4. **Relationship/Roles (D4):**
-   - **With new parts:** Instrument → **6**
+4. **Action (Digit 4):**
+   - **Cooks:** Create → **0**
 
-5. **Context (D5):**
-   - **Past Action:** Past → **0**
+5. **Object (Digit 5):**
+   - **Dinner:** Food → **6**
+
+6. **Relationship/Roles (Digit 6):**
+   - **Using a new recipe:** Instrument → **6**
+
+7. **Context (Digit 7):**
+   - **Present Action:** Present → **1**
 
 **Final Encoding:**
 
 ```
-0-1-5-6-0
+2-2-0-0-6-6-1
 ```
 
 **Interpretation:**
 
-- **0:** Person (Mechanic)
-- **1:** Fix
-- **5:** Vehicle Part (Car)
-- **6:** Instrument (Using new parts)
-- **0:** Past (Action occurred in the past)
+- **2:** Fear/Anxiety (Maria's primary emotion)
+- **2:** Pride (Maria's triggering emotion)
+- **0:** Person (Maria)
+- **0:** Create (Cooks)
+- **6:** Food (Dinner)
+- **6:** Instrument (Using a new recipe)
+- **1:** Present
 
 **Reconstruction:**
 
-"A person (mechanic) fixes (action: fix) a vehicle part (car) using an instrument (new parts) in the past."
+"Maria cooks dinner using a new recipe, feeling anxious during the process, and upon reflection, she feels accomplished."
 
 ---
 
-### **Example 9: "They will travel to Paris next summer."**
+## **6. Best Practices**
 
-**Step-by-Step Breakdown:**
+### **Integration Benefits:**
 
-1. **Entity (D1):**
-   - **They:** Group → **4**
+- **Comprehensive Representation:** Captures both emotional and structural aspects of events, providing a holistic view.
+- **Enhanced Memorability Analysis:** Facilitates deeper insights into why certain events are memorable by analyzing their emotional components.
+- **Versatile Application:** Applicable across various fields such as psychology, marketing, education, and event planning.
 
-2. **Action (D2):**
-   - **Travel:** Move → **2**
+### **Best Practices:**
 
-3. **Object (D3):**
-   - **Paris:** Miscellaneous Object → **9** (Note: Ideally, places should be handled under **Entity**, but for encoding purposes, it's placed here.)
+1. **Accurate Emotion Identification:**
+   - Carefully assess and assign the most appropriate primary and triggering emotion codes based on the context and feelings involved.
 
-4. **Relationship/Roles (D4):**
-   - **To Paris:** Destination → **5**
+2. **Consistent Coding:**
+   - Maintain uniformity in code assignments to ensure reliability and comparability across different events.
 
-5. **Context (D5):**
-   - **Future Action:** Future → **2**
+3. **Clarity in Ambiguity:**
+   - When an emotion does not exactly fit a predefined category, select the closest matching code and document any assumptions or interpretations made.
 
-**Final Encoding:**
+4. **Cultural Sensitivity:**
+   - Recognize that emotional expressions and perceptions can vary across cultures. Adjust coding practices to accommodate cultural differences where necessary.
 
-```
-4-2-9-5-2
-```
+5. **Use of 'Miscellaneous' Codes:**
+   - Reserve **Miscellaneous (0)** for emotions and categories that do not fit into predefined subcategories. Regularly review and update category tables to include commonly recurring emotions or entities not initially covered.
 
-**Interpretation:**
+6. **Documentation:**
+   - Keep detailed records of any custom codes or deviations from the standard framework to maintain clarity and consistency.
 
-- **4:** Group (They)
-- **2:** Move
-- **9:** Miscellaneous Object (Paris)
-- **5:** Destination
-- **2:** Future (Action will occur in the future)
-
-**Reconstruction:**
-
-"A group (they) moves (action: move) to a miscellaneous object (Paris) with the destination being Paris in the future."
-
-**Note:** For better accuracy, consider categorizing places under **Entities (Digit 1)** when applicable.
+7. **Iterative Refinement:**
+   - Continuously evaluate and refine the framework based on practical application and feedback to enhance its robustness and applicability.
 
 ---
 
-### **Example 10: "John quickly finished his homework in the evening."**
+## **7. Appendix: Comprehensive Category Tables**
 
-**Step-by-Step Breakdown:**
+### **A. Primary Emotions (Digit 1)**
 
-1. **Entity (D1):**
-   - **John:** Male → **1**
+| **Code** | **Emotion**         | **Description**                              |
+|----------|---------------------|----------------------------------------------|
+| **1**    | Joy/Happiness       | Feelings of pleasure, contentment, or elation |
+| **2**    | Fear/Anxiety        | Feelings of apprehension, worry, or terror    |
+| **3**    | Sadness             | Feelings of sorrow, disappointment, or grief  |
+| **4**    | Surprise            | Feelings of astonishment or unexpectedness    |
+| **5**    | Anger               | Feelings of frustration, irritation, or rage  |
+| **6**    | Love/Affection      | Feelings of deep attachment or fondness       |
+| **7**    | Disgust             | Feelings of revulsion or strong disapproval   |
+| **8**    | Anticipation        | Feelings of excitement or eagerness           |
+| **9**    | Trust               | Feelings of confidence and reliability        |
+| **0**    | Miscellaneous       | Any other primary emotions not listed         |
 
-2. **Action (D2):**
-   - **Finished:** Miscellaneous Action → **9**
+### **B. Triggering Emotions (Digit 2)**
 
-3. **Object (D3):**
-   - **Homework:** Miscellaneous Object → **9**
+| **Code** | **Emotion**              | **Description**                              |
+|----------|--------------------------|----------------------------------------------|
+| **1**    | Nostalgia                | Sentimental longing for the past             |
+| **2**    | Pride                    | Satisfaction derived from achievements       |
+| **3**    | Happiness                | Feelings of joy or contentment upon recall   |
+| **4**    | Remorse/Guilt            | Feelings of regret or responsibility         |
+| **5**    | Empathy/Compassion       | Understanding and sharing others' emotions   |
+| **6**    | Fear/Anxiety             | Unease or worry when recalling stressful events |
+| **7**    | Surprise/Astonishment    | Amazement upon recall                        |
+| **8**    | Sadness                  | Sorrow when recalling losses                 |
+| **9**    | Motivation/Inspiration   | Drive to act or change upon recall           |
+| **0**    | Miscellaneous            | Any other triggering emotions not listed     |
 
-4. **Relationship/Roles (D4):**
-   - **His homework:** Owner → **2**
-
-5. **Context (D5):**
-   - **Manner (quickly) and Time of Day (evening):** Manner → **3** (due to single-digit constraint)
-
-**Final Encoding:**
-
-```
-1-9-9-2-3
-```
-
-**Interpretation:**
-
-- **1:** Male (John)
-- **9:** Miscellaneous Action (Finish)
-- **9:** Miscellaneous Object (Homework)
-- **2:** Owner (John owns the homework)
-- **3:** Manner (Quickly)
-
-**Reconstruction:**
-
-"A male (John) performs a miscellaneous action (finish) on a miscellaneous object (homework) owned by him in a manner (quickly)."
-
-*Note:* The time of day ("evening") is not explicitly captured due to the single-digit constraint in the **Context** category.
-
----
-
-# **Appendix: Comprehensive Category Tables**
-
-### **A. Entities (Digit 1)**
+### **C. Entities (Digit 3)**
 
 | **Code** | **Subcategory**   | **Description**                          |
 |----------|-------------------|------------------------------------------|
@@ -699,7 +989,7 @@ Context provides additional information about the action, such as time, manner, 
 | **8**    | Technology        | Gadgets, computers, machinery             |
 | **9**    | Miscellaneous     | Any other entities not covered above      |
 
-### **B. Actions (Digit 2)**
+### **D. Actions (Digit 4)**
 
 | **Code** | **Subcategory** | **Description**                          |
 |----------|-----------------|------------------------------------------|
@@ -714,7 +1004,7 @@ Context provides additional information about the action, such as time, manner, 
 | **8**    | Build           | Constructing or assembling               |
 | **9**    | Miscellaneous   | Any other actions not covered above      |
 
-### **C. Objects (Digit 3)**
+### **E. Objects (Digit 5)**
 
 | **Code** | **Subcategory**      | **Description**                          |
 |----------|----------------------|------------------------------------------|
@@ -729,7 +1019,7 @@ Context provides additional information about the action, such as time, manner, 
 | **8**    | Art                  | Creative works like paintings, music     |
 | **9**    | Miscellaneous        | Any other objects not covered above      |
 
-### **D. Relationships/Roles (Digit 4)**
+### **F. Relationships/Roles (Digit 6)**
 
 | **Code** | **Subcategory** | **Description**                          |
 |----------|-----------------|------------------------------------------|
@@ -744,7 +1034,7 @@ Context provides additional information about the action, such as time, manner, 
 | **8**    | Purpose         | Reason for the action                    |
 | **9**    | Miscellaneous   | Any other relationships not covered above|
 
-### **E. Context (Digit 5)**
+### **G. Context (Digit 7)**
 
 | **Code** | **Subcategory**   | **Description**                          |
 |----------|-------------------|------------------------------------------|
@@ -761,4 +1051,319 @@ Context provides additional information about the action, such as time, manner, 
 
 ---
 
-Numerical Encoding Framework © 2024 by Blondel Mondésir is licensed under CC BY 4.0 
+## **4. Encoding and Decoding Process**
+
+### **A. Encoding Rules:**
+
+1. **Identify Components:**
+   - Analyze the situation to determine the **Primary Emotion**, **Triggering Emotion**, **Entity**, **Action**, **Object**, **Relationship/Roles**, and **Context**.
+
+2. **Assign Codes:**
+   - For each component, assign the corresponding digit based on the category definitions.
+
+3. **Sequence the Codes:**
+   - Arrange the digits in the following order:
+     ```
+     [Primary Emotion][Triggering Emotion][Entity][Action][Object][Relationship/Roles][Context]
+     ```
+
+4. **Use Hyphens for Clarity:**
+   - Separate the digits with hyphens for readability (e.g., `1-2-0-4-9-1-1`).
+
+### **B. Decoding Rules:**
+
+1. **Read the Code:**
+   - Examine each digit in the sequence.
+
+2. **Map to Categories:**
+   - **Digit 1:** Primary Emotion
+   - **Digit 2:** Triggering Emotion
+   - **Digits 3-7:** Structural components (Entity, Action, Object, Relationship/Roles, Context)
+
+3. **Interpret Each Digit:**
+   - Refer to the category definitions to understand what each digit represents.
+
+4. **Reconstruct the Situation:**
+   - Combine the interpreted components to form a comprehensive understanding of the event, including both its factual details and emotional aspects.
+
+---
+
+## **5. Examples Using the EMO-7 Framework**
+
+### **Example 1: "Emily is helping Dave fix the roof, feeling happy, and upon recalling, they feel pride."**
+
+**Step-by-Step Breakdown:**
+
+1. **Primary Emotion (Digit 1):**
+   - **Feeling Happy:** Joy/Happiness → **1**
+
+2. **Triggering Emotion (Digit 2):**
+   - **Feel Pride upon recall:** Pride → **2**
+
+3. **Entity (Digit 3):**
+   - **Emily:** Person → **0**
+
+4. **Action (Digit 4):**
+   - **Helping:** Help → **4**
+
+5. **Object (Digit 5):**
+   - **Roof:** Miscellaneous Object → **9**
+
+6. **Relationship/Roles (Digit 6):**
+   - **Dave as Recipient:** Recipient → **1**
+
+7. **Context (Digit 7):**
+   - **Present Action:** Present → **1**
+
+**Final Encoding:**
+
+```
+1-2-0-4-9-1-1
+```
+
+**Interpretation:**
+
+- **1:** Joy/Happiness (Primary Emotion)
+- **2:** Pride (Triggering Emotion)
+- **0:** Person (Emily)
+- **4:** Help
+- **9:** Miscellaneous Object (Roof)
+- **1:** Recipient (Dave)
+- **1:** Present
+
+**Reconstruction:**
+
+"Emily is helping Dave fix the roof, feeling happy during the activity, and upon recalling the event, they feel pride."
+
+---
+
+### **Example 2: "Sarah teaches John mathematics at school, experiencing fulfillment, and later, John feels gratitude."**
+
+**Step-by-Step Breakdown:**
+
+1. **Primary Emotion (Digit 1):**
+   - **Experiencing Fulfillment:** Pride → **2**
+
+2. **Triggering Emotion (Digit 2):**
+   - **John feels Gratitude:** Trust → **9**
+
+3. **Entity (Digit 3):**
+   - **Sarah:** Person → **0**
+
+4. **Action (Digit 4):**
+   - **Teaches:** Teach → **5**
+
+5. **Object (Digit 5):**
+   - **Mathematics:** Book/Subject → **7**
+
+6. **Relationship/Roles (Digit 6):**
+   - **At school:** Location → **3**
+
+7. **Context (Digit 7):**
+   - **Present Action:** Present → **1**
+
+**Final Encoding:**
+
+```
+2-9-0-5-7-3-1
+```
+
+**Interpretation:**
+
+- **2:** Pride (Primary Emotion)
+- **9:** Trust (Triggering Emotion)
+- **0:** Person (Sarah)
+- **5:** Teach
+- **7:** Book/Subject (Mathematics)
+- **3:** Location (School)
+- **1:** Present
+
+**Reconstruction:**
+
+"Sarah teaches John mathematics at school, experiencing pride during the lesson, and later, John feels gratitude when recalling the experience."
+
+---
+
+### **Example 3: "Alex writes a book for the library, feeling inspired, and readers feel nostalgia when reading it."**
+
+**Step-by-Step Breakdown:**
+
+1. **Primary Emotion (Digit 1):**
+   - **Feeling Inspired:** Trust → **9**
+
+2. **Triggering Emotion (Digit 2):**
+   - **Readers feel Nostalgia:** Nostalgia → **1**
+
+3. **Entity (Digit 3):**
+   - **Alex:** Person → **0**
+
+4. **Action (Digit 4):**
+   - **Writes:** Create → **0**
+
+5. **Object (Digit 5):**
+   - **Book:** Book/Subject → **7**
+
+6. **Relationship/Roles (Digit 6):**
+   - **For the library:** Purpose → **8**
+
+7. **Context (Digit 7):**
+   - **Present Action:** Present → **1**
+
+**Final Encoding:**
+
+```
+9-1-0-0-7-8-1
+```
+
+**Interpretation:**
+
+- **9:** Trust (Primary Emotion)
+- **1:** Nostalgia (Triggering Emotion)
+- **0:** Person (Alex)
+- **0:** Create (Writes)
+- **7:** Book/Subject (Book)
+- **8:** Purpose (For the library)
+- **1:** Present
+
+**Reconstruction:**
+
+"Alex writes a book for the library, feeling inspired during the process, and readers feel nostalgia when reading it."
+
+---
+
+### **Example 4: "The dog chased the cat through the garden, driven by excitement, and later, the owner recalls the event with amusement."**
+
+**Step-by-Step Breakdown:**
+
+1. **Primary Emotion (Digit 1):**
+   - **Dog's Excitement:** Joy/Happiness → **1**
+
+2. **Triggering Emotion (Digit 2):**
+   - **Owner's Amusement upon recall:** Happiness → **3**
+
+3. **Entity (Digit 3):**
+   - **Dog:** Animal → **5**
+
+4. **Action (Digit 4):**
+   - **Chased:** Move → **2**
+
+5. **Object (Digit 5):**
+   - **Cat:** Animal → **5**
+
+6. **Relationship/Roles (Digit 6):**
+   - **Through the garden:** Location → **3**
+
+7. **Context (Digit 7):**
+   - **Past Action:** Past → **0**
+
+**Final Encoding:**
+
+```
+1-3-5-2-5-3-0
+```
+
+**Interpretation:**
+
+- **1:** Joy/Happiness (Dog's primary emotion)
+- **3:** Happiness (Owner's triggering emotion)
+- **5:** Animal (Dog)
+- **2:** Move (Chased)
+- **5:** Animal (Cat)
+- **3:** Location (Garden)
+- **0:** Past
+
+**Reconstruction:**
+
+"The dog chased the cat through the garden, driven by excitement, and later, the owner recalls the event with amusement."
+
+---
+
+### **Example 5: "Maria cooks dinner using a new recipe, feeling anxious, and upon reflection, she feels accomplished."**
+
+**Step-by-Step Breakdown:**
+
+1. **Primary Emotion (Digit 1):**
+   - **Feeling Anxious:** Fear/Anxiety → **2**
+
+2. **Triggering Emotion (Digit 2):**
+   - **Feels Accomplished:** Pride → **2**
+
+3. **Entity (Digit 3):**
+   - **Maria:** Person → **0**
+
+4. **Action (Digit 4):**
+   - **Cooks:** Create → **0**
+
+5. **Object (Digit 5):**
+   - **Dinner:** Food → **6**
+
+6. **Relationship/Roles (Digit 6):**
+   - **Using a new recipe:** Instrument → **6**
+
+7. **Context (Digit 7):**
+   - **Present Action:** Present → **1**
+
+**Final Encoding:**
+
+```
+2-2-0-0-6-6-1
+```
+
+**Interpretation:**
+
+- **2:** Fear/Anxiety (Maria's primary emotion)
+- **2:** Pride (Maria's triggering emotion)
+- **0:** Person (Maria)
+- **0:** Create (Cooks)
+- **6:** Food (Dinner)
+- **6:** Instrument (Using a new recipe)
+- **1:** Present
+
+**Reconstruction:**
+
+"Maria cooks dinner using a new recipe, feeling anxious during the process, and upon reflection, she feels accomplished."
+
+---
+
+## **6. Best Practices**
+
+### **Integration Benefits:**
+
+- **Comprehensive Representation:** Captures both emotional and structural aspects of events, providing a holistic view.
+- **Enhanced Memorability Analysis:** Facilitates deeper insights into why certain events are memorable by analyzing their emotional components.
+- **Versatile Application:** Applicable across various fields such as psychology, marketing, education, and event planning.
+
+### **Best Practices:**
+
+1. **Accurate Emotion Identification:**
+   - Carefully assess and assign the most appropriate primary and triggering emotion codes based on the context and feelings involved.
+
+2. **Consistent Coding:**
+   - Maintain uniformity in code assignments to ensure reliability and comparability across different events.
+
+3. **Clarity in Ambiguity:**
+   - When an emotion does not exactly fit a predefined category, select the closest matching code and document any assumptions or interpretations made.
+
+4. **Cultural Sensitivity:**
+   - Recognize that emotional expressions and perceptions can vary across cultures. Adjust coding practices to accommodate cultural differences where necessary.
+
+5. **Use of 'Miscellaneous' Codes:**
+   - Reserve **Miscellaneous (0)** for emotions and categories that do not fit into predefined subcategories. Regularly review and update category tables to include commonly recurring emotions or entities not initially covered.
+
+6. **Documentation:**
+   - Keep detailed records of any custom codes or deviations from the standard framework to maintain clarity and consistency.
+
+7. **Iterative Refinement:**
+   - Continuously evaluate and refine the framework based on practical application and feedback to enhance its robustness and applicability.
+
+---
+
+## **7. Appendix: Comprehensive Category Tables**
+
+*(As detailed in Section 3 above.)*
+
+---
+
+## **8. License**
+
+**EMO-7 Framework © 2024 by Blondel Mondésir is licensed under CC BY 4.0**
