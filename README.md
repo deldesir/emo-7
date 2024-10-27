@@ -1,4 +1,4 @@
-# **EMO-7 Framework Reference Guide (Version 1.1)**
+# **EMO-7 Framework Reference Guide (Version 1.0)**
 
 ## **Table of Contents**
 
